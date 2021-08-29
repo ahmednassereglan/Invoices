@@ -17,6 +17,7 @@ class CreateSectionsTable extends Migration
             $table->id();
             $table->string('sectionName');
             $table->text('description')->nullable();
+            $table->string('createdBy');
             $table->timestamps();
         });
     }
