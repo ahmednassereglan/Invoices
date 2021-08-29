@@ -7,6 +7,7 @@
 <link href="{{URL::asset('assets/plugins/datatable/css/jquery.dataTables.min.css')}}" rel="stylesheet">
 <link href="{{URL::asset('assets/plugins/datatable/css/responsive.dataTables.min.css')}}" rel="stylesheet">
 <link href="{{URL::asset('assets/plugins/select2/css/select2.min.css')}}" rel="stylesheet">
+<!--/ Internal Data table css -->
 @endsection
 @section('page-header')
 				<!-- breadcrumb -->
@@ -486,7 +487,7 @@
 									<h4 class="card-title mg-b-0">STRIPED ROWS</h4>
 									<i class="mdi mdi-dots-horizontal text-gray"></i>
 								</div>
-								<p class="tx-12 tx-gray-500 mb-2">Example of Valex Striped Rows.. <a href="">Learn more</a></p>
+								<p class="tx-12 tx-gray-500 mb-2">Example of Valex Striped Rows.. 12<a href="">Learn more</a></p>
 							</div>
 							<div class="card-body">
 								<div class="table-responsive">

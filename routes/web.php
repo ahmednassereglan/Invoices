@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\InvoiceController;
+use App\Invoice;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -25,5 +27,8 @@ Auth::routes();
 // Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('invoices', 'InvoiceController');
+
 
 Route::get('/{page}', 'AdminController@index');
